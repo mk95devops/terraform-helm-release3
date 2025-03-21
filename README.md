@@ -1,6 +1,6 @@
 # Usage 
 ## Copy paste below code and update the config
-```
+```m
 module "helm-app" {
   source      = "./appmodule"
   name        = "terraform-helm-app"
@@ -19,7 +19,7 @@ image:
 }
 ```
 ### Run the following commands 
-```
+```r
 terraform init 
 terraform apply 
 ````
