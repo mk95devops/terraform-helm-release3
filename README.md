@@ -1,6 +1,6 @@
 # Usage 
 ## Copy paste below code and update the config
-```yaml
+```yml
 module "helm-app" {
   source      = "./appmodule"
   name        = "terraform-helm-app"
